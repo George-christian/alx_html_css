@@ -161,3 +161,33 @@ header nav a:hover {
   font-style: italic;
   font-size: 14px;
 }
+.quote {
+  background: #c271ff;
+  padding: 120px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: #fff;
+}
+
+.quote-person img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.quote blockquote {
+  max-width: 650px;
+}
+
+.quote blockquote p {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.quote blockquote footer {
+  font-size: 18px;
+  opacity: 0.9;
+}
