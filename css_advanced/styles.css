@@ -282,3 +282,31 @@ header nav a:hover {
 
 
 
+.faq {
+  padding: 140px 90px;
+  text-align: center;
+}
+
+.faq h2 {
+  font-size: 48px;
+  margin-bottom: 80px;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 90px 120px;
+  text-align: left;
+}
+
+.faq-item h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.faq-item p {
+  color: #666;
+  font-size: 16px;
+}
+
+
