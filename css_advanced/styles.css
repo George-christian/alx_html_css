@@ -191,3 +191,56 @@ header nav a:hover {
   font-size: 18px;
   opacity: 0.9;
 }
+
+
+.videos {
+  padding: 100px 60px;
+  text-align: center;
+}
+
+.videos h2 {
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+
+.videos h2 span {
+  color: var(--main-purple);
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.video-card {
+  background: #fff;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  text-align: left;
+}
+
+.video-card img {
+  border-radius: 12px 12px 0 0;
+}
+
+.video-card h3 {
+  padding: 15px 20px 5px;
+  font-size: 20px;
+}
+
+.video-card p {
+  padding: 0 20px;
+  font-size: 15px;
+  color: #777;
+}
+
+.video-meta {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px 0;
+  align-items: center;
+}
+
+
