@@ -1,0 +1,67 @@
+@import url("./holberton_school-icon/style.css");
+.footer {
+    width: 100%;
+    background: #111;
+    padding: 60px 20px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-logo img {
+    width: 60px;
+}
+
+.footer-logo h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer-social {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-social a {
+    color: white;
+    font-size: 28px;
+    transition: 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #ff416c;
+    transform: scale(1.15);
+}
+
+.footer-copy {
+    color: #777;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 480px) {
+    .footer-logo img {
+        width: 50px;
+    }
+
+    .footer-logo h3 {
+        font-size: 1.2rem;
+    }
+
+    .footer-social a {
+        font-size: 24px;
+    }
+}
