@@ -1,0 +1,11 @@
+
+.items-row .item,
+.results-row .result {
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.items-row .item:hover,
+.results-row .result:hover {
+    transform: scale(1.1) rotate(10deg);
+    opacity: 0.9;
+}
