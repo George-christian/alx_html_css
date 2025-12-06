@@ -1,0 +1,78 @@
+
+@media (max-width: 480px) {
+    .nav-links {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background: #111;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0;
+        display: none;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav-links.active {
+        display: flex;
+        opacity: 1;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+@import url("./holberton_school-icon/style.css");
+.what-we-do {
+    padding: 80px 20px;
+    text-align: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.what-we-do h2 {
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.section-subtitle {
+    color: #555;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto 60px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.service {
+    text-align: center;
+    padding: 20px;
+}
+
+.service span {
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: #FF6565;
+    display: block;
+}
+
+.service h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.service p {
+    font-size: 14px;
+    color: #555;
+}
+
